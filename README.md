@@ -1,5 +1,5 @@
 # Ultim
-EdzUp's engin called Ultim 
+EdzUp's forth iteration of a C++ engine 
 
 uses picopng from Lode Vandevenne (lodev.org)
 
