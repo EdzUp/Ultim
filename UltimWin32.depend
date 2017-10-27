@@ -1,0 +1,540 @@
+# depslib dependency file v1.0
+1485976930 source:k:\ultimengine\ultim\engine\debugger.cpp
+	"Debugger.h"
+
+1468495548 k:\ultimengine\ultim\engine\debugger.h
+	<stdio.h>
+	<string>
+
+1448393502 source:k:\ultimengine\ultim\engine\filesystem.cpp
+	<iostream>
+	<ostream>
+	<fstream>
+	"FileSystem.h"
+
+1448394176 k:\ultimengine\ultim\engine\filesystem.h
+	<iostream>
+	<ostream>
+	<fstream>
+
+1469456500 source:k:\ultimengine\ultim\engine\soundsystem.cpp
+	"SoundSystem.h"
+	"stdlib.h"
+	<AL/al.h>
+	<AL/alc.h>
+
+1478084100 k:\ultimengine\ultim\engine\soundsystem.h
+	<AL/al.h>
+	<AL/alc.h>
+
+1436268436 k:\ultimengine\ultim\openal\include\al\al.h
+
+1436268436 k:\ultimengine\ultim\openal\include\al\alc.h
+
+1484260644 source:k:\ultimengine\ultim\engine\uaudio.cpp
+	"UAudio.h"
+	"stdlib.h"
+	<AL/al.h>
+	<AL/alc.h>
+
+1484260536 k:\ultimengine\ultim\engine\uaudio.h
+	<AL/al.h>
+	<AL/alc.h>
+	<iostream>
+	<string>
+	<stdio.h>
+	<sstream>
+	<vector>
+
+1486550410 source:k:\ultimengine\ultim\engine\uentity.cpp
+	"UEntity.h"
+
+1486550418 k:\ultimengine\ultim\engine\uentity.h
+	"USurface.h"
+	<string>
+	<vector>
+
+1486551472 k:\ultimengine\ultim\engine\usurface.h
+	<vector>
+	"Vec3.h"
+
+1486550058 k:\ultimengine\ultim\engine\vec3.h
+
+1487763084 source:k:\ultimengine\ultim\engine\ultim.cpp
+	"Ultim.h"
+	<GL/gl.h>
+	<math.h>
+	<vector>
+	<stdio.h>
+
+1487762982 k:\ultimengine\ultim\engine\ultim.h
+	<string>
+	<GL/gl.h>
+	"Win32.h"
+	"UTexture.h"
+	"UAudio.h"
+	"SoundSystem.h"
+	"URandom.h"
+	"UNetwork.h"
+	"URender.h"
+
+1470673442 k:\ultimengine\ultim\engine\win32.h
+	<Windows.h>
+	<iostream>
+	<vector>
+
+1484260992 k:\ultimengine\ultim\engine\utexture.h
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	<GL/gl.h>
+	"Vec3.h"
+
+1484260892 k:\ultimengine\ultim\engine\urandom.h
+	<stdio.h>
+	<time.h>
+	<math.h>
+	<chrono>
+	<iostream>
+	<ctime>
+	<sys/time.h>
+	<unistd.h>
+
+1484260626 k:\ultimengine\ultim\engine\unetwork.h
+	"enet-1.3.13/include/enet/enet.h"
+
+1455832644 k:\ultimengine\ultim\engine\enet-1.3.13\include\enet\enet.h
+	<stdlib.h>
+	"../enet/win32.h"
+	"../enet/unix.h"
+	"../enet/types.h"
+	"../enet/protocol.h"
+	"../enet/list.h"
+	"../enet/callbacks.h"
+
+1430401328 k:\ultimengine\ultim\engine\enet-1.3.13\include\enet\win32.h
+	<stdlib.h>
+	<winsock2.h>
+
+1430401328 k:\ultimengine\ultim\engine\enet-1.3.13\include\enet\unix.h
+	<stdlib.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<unistd.h>
+
+1430401328 k:\ultimengine\ultim\engine\enet-1.3.13\include\enet\types.h
+
+1453057376 k:\ultimengine\ultim\engine\enet-1.3.13\include\enet\protocol.h
+	"../enet/types.h"
+
+1430401328 k:\ultimengine\ultim\engine\enet-1.3.13\include\enet\list.h
+	<stdlib.h>
+
+1430401328 k:\ultimengine\ultim\engine\enet-1.3.13\include\enet\callbacks.h
+	<stdlib.h>
+
+1486551812 k:\ultimengine\ultim\engine\urender.h
+	"UEntity.h"
+	<vector>
+
+1486028244 source:k:\ultimengine\ultim\engine\unetwork.cpp
+	"UNetwork.h"
+	<stdio.h>
+
+1484260942 source:k:\ultimengine\ultim\engine\urandom.cpp
+	"URandom.h"
+
+1486551862 source:k:\ultimengine\ultim\engine\urender.cpp
+	"URender.h"
+	"iostream"
+
+1486551572 source:k:\ultimengine\ultim\engine\usurface.cpp
+	"USurface.h"
+
+1484261102 source:k:\ultimengine\ultim\engine\utexture.cpp
+	"UTexture.h"
+	"picopng.h"
+	<GL/gl.h>
+
+1469305608 k:\ultimengine\ultim\engine\picopng.h
+	<vector>
+	<cstdio>
+
+1449602266 source:k:\ultimengine\ultim\engine\vec3.cpp
+	"Vec3.h"
+	"GL/gl.h"
+
+1470845094 source:k:\ultimengine\ultim\engine\win32.cpp
+	"Win32.h"
+
+1487883992 source:k:\ultimengine\ultim\ultimengine\main.cpp
+	<windows.h>
+	<gl/gl.h>
+	"../Engine/Ultim.h"
+	"../Engine/Debugger.h"
+
+1485976930 source:f:\ultimengine\ultim\engine\debugger.cpp
+	"Debugger.h"
+
+1468495548 f:\ultimengine\ultim\engine\debugger.h
+	<stdio.h>
+	<string>
+
+1448393502 source:f:\ultimengine\ultim\engine\filesystem.cpp
+	<iostream>
+	<ostream>
+	<fstream>
+	"FileSystem.h"
+
+1448394176 f:\ultimengine\ultim\engine\filesystem.h
+	<iostream>
+	<ostream>
+	<fstream>
+
+1488362128 source:f:\ultimengine\ultim\engine\soundsystem.cpp
+	"SoundSystem.h"
+	"stdlib.h"
+	<AL/al.h>
+	<AL/alc.h>
+
+1491219060 f:\ultimengine\ultim\engine\soundsystem.h
+	<AL/al.h>
+	<AL/alc.h>
+
+1436268436 f:\ultimengine\ultim\openal\include\al\al.h
+
+1436268436 f:\ultimengine\ultim\openal\include\al\alc.h
+
+1488363046 source:f:\ultimengine\ultim\engine\uaudio.cpp
+	"UAudio.h"
+	"stdlib.h"
+	<AL/al.h>
+	<AL/alc.h>
+
+1488363054 f:\ultimengine\ultim\engine\uaudio.h
+	<AL/al.h>
+	<AL/alc.h>
+	<iostream>
+	<string>
+	<stdio.h>
+	<sstream>
+	<vector>
+
+1486550410 source:f:\ultimengine\ultim\engine\uentity.cpp
+	"UEntity.h"
+
+1486550418 f:\ultimengine\ultim\engine\uentity.h
+	"USurface.h"
+	<string>
+	<vector>
+
+1486551472 f:\ultimengine\ultim\engine\usurface.h
+	<vector>
+	"Vec3.h"
+
+1486550058 f:\ultimengine\ultim\engine\vec3.h
+
+1495835164 source:f:\ultimengine\ultim\engine\ultim.cpp
+	"Ultim.h"
+	<GL/gl.h>
+	<math.h>
+	<vector>
+	<stdio.h>
+
+1495835398 f:\ultimengine\ultim\engine\ultim.h
+	<string>
+	<GL/gl.h>
+	"Win32.h"
+	"UTexture.h"
+	"UAudio.h"
+	"SoundSystem.h"
+	"URandom.h"
+	"UNetwork.h"
+	"URender.h"
+
+1470673442 f:\ultimengine\ultim\engine\win32.h
+	<Windows.h>
+	<iostream>
+	<vector>
+
+1484260992 f:\ultimengine\ultim\engine\utexture.h
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	<GL/gl.h>
+	"Vec3.h"
+
+1484260892 f:\ultimengine\ultim\engine\urandom.h
+	<stdio.h>
+	<time.h>
+	<math.h>
+	<chrono>
+	<iostream>
+	<ctime>
+	<sys/time.h>
+	<unistd.h>
+
+1484260626 f:\ultimengine\ultim\engine\unetwork.h
+	"enet-1.3.13/include/enet/enet.h"
+
+1455832644 f:\ultimengine\ultim\engine\enet-1.3.13\include\enet\enet.h
+	<stdlib.h>
+	"../enet/win32.h"
+	"../enet/unix.h"
+	"../enet/types.h"
+	"../enet/protocol.h"
+	"../enet/list.h"
+	"../enet/callbacks.h"
+
+1430401328 f:\ultimengine\ultim\engine\enet-1.3.13\include\enet\win32.h
+	<stdlib.h>
+	<winsock2.h>
+
+1430401328 f:\ultimengine\ultim\engine\enet-1.3.13\include\enet\unix.h
+	<stdlib.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<unistd.h>
+
+1430401328 f:\ultimengine\ultim\engine\enet-1.3.13\include\enet\types.h
+
+1453057376 f:\ultimengine\ultim\engine\enet-1.3.13\include\enet\protocol.h
+	"../enet/types.h"
+
+1430401328 f:\ultimengine\ultim\engine\enet-1.3.13\include\enet\list.h
+	<stdlib.h>
+
+1430401328 f:\ultimengine\ultim\engine\enet-1.3.13\include\enet\callbacks.h
+	<stdlib.h>
+
+1486551812 f:\ultimengine\ultim\engine\urender.h
+	"UEntity.h"
+	<vector>
+
+1486028244 source:f:\ultimengine\ultim\engine\unetwork.cpp
+	"UNetwork.h"
+	<stdio.h>
+
+1484260942 source:f:\ultimengine\ultim\engine\urandom.cpp
+	"URandom.h"
+
+1491218930 source:f:\ultimengine\ultim\engine\urender.cpp
+	"URender.h"
+	"iostream"
+
+1491219012 source:f:\ultimengine\ultim\engine\usurface.cpp
+	"USurface.h"
+
+1484261102 source:f:\ultimengine\ultim\engine\utexture.cpp
+	"UTexture.h"
+	"picopng.h"
+	<GL/gl.h>
+
+1469305608 f:\ultimengine\ultim\engine\picopng.h
+	<vector>
+	<cstdio>
+
+1449602266 source:f:\ultimengine\ultim\engine\vec3.cpp
+	"Vec3.h"
+	"GL/gl.h"
+
+1470845094 source:f:\ultimengine\ultim\engine\win32.cpp
+	"Win32.h"
+
+1487883992 source:f:\ultimengine\ultim\ultimengine\main.cpp
+	<windows.h>
+	<gl/gl.h>
+	"../Engine/Ultim.h"
+	"../Engine/Debugger.h"
+
+1495835464 source:f:\ultimengine\ultim\ultimwin32\main.cpp
+	<windows.h>
+	<gl/gl.h>
+	"../Engine/Ultim.h"
+	"../Engine/Debugger.h"
+
+1485976930 source:e:\ultimengine\ultim\engine\debugger.cpp
+	"Debugger.h"
+
+1468495548 e:\ultimengine\ultim\engine\debugger.h
+	<stdio.h>
+	<string>
+
+1448393502 source:e:\ultimengine\ultim\engine\filesystem.cpp
+	<iostream>
+	<ostream>
+	<fstream>
+	"FileSystem.h"
+
+1448394176 e:\ultimengine\ultim\engine\filesystem.h
+	<iostream>
+	<ostream>
+	<fstream>
+
+1488362128 source:e:\ultimengine\ultim\engine\soundsystem.cpp
+	"SoundSystem.h"
+	"stdlib.h"
+	<AL/al.h>
+	<AL/alc.h>
+
+1491219060 e:\ultimengine\ultim\engine\soundsystem.h
+	<AL/al.h>
+	<AL/alc.h>
+
+1436268436 e:\ultimengine\ultim\openal\include\al\al.h
+
+1436268436 e:\ultimengine\ultim\openal\include\al\alc.h
+
+1488363046 source:e:\ultimengine\ultim\engine\uaudio.cpp
+	"UAudio.h"
+	"stdlib.h"
+	<AL/al.h>
+	<AL/alc.h>
+
+1488363054 e:\ultimengine\ultim\engine\uaudio.h
+	<AL/al.h>
+	<AL/alc.h>
+	<iostream>
+	<string>
+	<stdio.h>
+	<sstream>
+	<vector>
+
+1486550410 source:e:\ultimengine\ultim\engine\uentity.cpp
+	"UEntity.h"
+
+1486550418 e:\ultimengine\ultim\engine\uentity.h
+	"USurface.h"
+	<string>
+	<vector>
+
+1486551472 e:\ultimengine\ultim\engine\usurface.h
+	<vector>
+	"Vec3.h"
+
+1486550058 e:\ultimengine\ultim\engine\vec3.h
+
+1508330582 source:e:\ultimengine\ultim\engine\ultim.cpp
+	"Ultim.h"
+	<GL/gl.h>
+	<math.h>
+	<vector>
+	<stdio.h>
+
+1508330532 e:\ultimengine\ultim\engine\ultim.h
+	<string>
+	<GL/gl.h>
+	"Win32.h"
+	"UTexture.h"
+	"UAudio.h"
+	"SoundSystem.h"
+	"URandom.h"
+	"UNetwork.h"
+	"URender.h"
+
+1508331646 e:\ultimengine\ultim\engine\win32.h
+	<Windows.h>
+	<wtypes.h>
+	<iostream>
+	<vector>
+	<GL/gl.h>
+
+1484260992 e:\ultimengine\ultim\engine\utexture.h
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	<GL/gl.h>
+	"Vec3.h"
+
+1484260892 e:\ultimengine\ultim\engine\urandom.h
+	<stdio.h>
+	<time.h>
+	<math.h>
+	<chrono>
+	<iostream>
+	<ctime>
+	<sys/time.h>
+	<unistd.h>
+
+1484260626 e:\ultimengine\ultim\engine\unetwork.h
+	"enet-1.3.13/include/enet/enet.h"
+
+1455832644 e:\ultimengine\ultim\engine\enet-1.3.13\include\enet\enet.h
+	<stdlib.h>
+	"../enet/win32.h"
+	"../enet/unix.h"
+	"../enet/types.h"
+	"../enet/protocol.h"
+	"../enet/list.h"
+	"../enet/callbacks.h"
+
+1430401328 e:\ultimengine\ultim\engine\enet-1.3.13\include\enet\win32.h
+	<stdlib.h>
+	<winsock2.h>
+
+1430401328 e:\ultimengine\ultim\engine\enet-1.3.13\include\enet\unix.h
+	<stdlib.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<unistd.h>
+
+1430401328 e:\ultimengine\ultim\engine\enet-1.3.13\include\enet\types.h
+
+1453057376 e:\ultimengine\ultim\engine\enet-1.3.13\include\enet\protocol.h
+	"../enet/types.h"
+
+1430401328 e:\ultimengine\ultim\engine\enet-1.3.13\include\enet\list.h
+	<stdlib.h>
+
+1430401328 e:\ultimengine\ultim\engine\enet-1.3.13\include\enet\callbacks.h
+	<stdlib.h>
+
+1486551812 e:\ultimengine\ultim\engine\urender.h
+	"UEntity.h"
+	<vector>
+
+1486028244 source:e:\ultimengine\ultim\engine\unetwork.cpp
+	"UNetwork.h"
+	<stdio.h>
+
+1484260942 source:e:\ultimengine\ultim\engine\urandom.cpp
+	"URandom.h"
+
+1491218930 source:e:\ultimengine\ultim\engine\urender.cpp
+	"URender.h"
+	"iostream"
+
+1491219012 source:e:\ultimengine\ultim\engine\usurface.cpp
+	"USurface.h"
+
+1484261102 source:e:\ultimengine\ultim\engine\utexture.cpp
+	"UTexture.h"
+	"picopng.h"
+	<GL/gl.h>
+
+1469305608 e:\ultimengine\ultim\engine\picopng.h
+	<vector>
+	<cstdio>
+
+1449602266 source:e:\ultimengine\ultim\engine\vec3.cpp
+	"Vec3.h"
+	"GL/gl.h"
+
+1508413080 source:e:\ultimengine\ultim\engine\win32.cpp
+	"Win32.h"
+
+1509043946 source:e:\ultimengine\ultim\ultimwin32\main.cpp
+	<windows.h>
+	<gl/gl.h>
+	"../Engine/Ultim.h"
+	"../Engine/Debugger.h"
+

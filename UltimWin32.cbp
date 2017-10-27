@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="UltimEngine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/UltimEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wfatal-errors" />
+					<Add option="-std=c++11" />
+					<Add option="-m32" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-m32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/UltimEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++98" />
+					<Add option="-m32" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-m32" />
+			<Add option="-lwinmm" />
+			<Add option="-lws2_32" />
+			<Add directory="../OpenAL/include" />
+			<Add directory="../Engine/enet-1.3.13/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-m32" />
+			<Add option="-lwinmm" />
+			<Add option="-lws2_32" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="gdi32" />
+			<Add library="../Engine/enet-1.3.13/enet.lib" />
+			<Add library="../OpenAL/libs/Win32/OpenAL32.lib" />
+			<Add library="libws2_32.a" />
+			<Add library="Winmm" />
+			<Add directory="../OpenAL/libs/Win32" />
+			<Add directory="../Engine/enet-1.3.13" />
+		</Linker>
+		<Unit filename="../Engine/Convert.h" />
+		<Unit filename="../Engine/Debugger.cpp" />
+		<Unit filename="../Engine/Debugger.h" />
+		<Unit filename="../Engine/EInput.h" />
+		<Unit filename="../Engine/ETimer.h" />
+		<Unit filename="../Engine/EdzUpMath.h" />
+		<Unit filename="../Engine/FileSystem.cpp" />
+		<Unit filename="../Engine/FileSystem.h" />
+		<Unit filename="../Engine/KeyDefines.h" />
+		<Unit filename="../Engine/Networking.h" />
+		<Unit filename="../Engine/SoundSystem.cpp" />
+		<Unit filename="../Engine/SoundSystem.h" />
+		<Unit filename="../Engine/UAudio.cpp" />
+		<Unit filename="../Engine/UAudio.h" />
+		<Unit filename="../Engine/UEntity.cpp" />
+		<Unit filename="../Engine/UEntity.h" />
+		<Unit filename="../Engine/UNetwork.cpp" />
+		<Unit filename="../Engine/UNetwork.h" />
+		<Unit filename="../Engine/URandom.cpp" />
+		<Unit filename="../Engine/URandom.h" />
+		<Unit filename="../Engine/URender.cpp" />
+		<Unit filename="../Engine/URender.h" />
+		<Unit filename="../Engine/USurface.cpp" />
+		<Unit filename="../Engine/USurface.h" />
+		<Unit filename="../Engine/UTexture.cpp" />
+		<Unit filename="../Engine/UTexture.h" />
+		<Unit filename="../Engine/Ultim.cpp" />
+		<Unit filename="../Engine/Ultim.h" />
+		<Unit filename="../Engine/Vec3.cpp" />
+		<Unit filename="../Engine/Vec3.h" />
+		<Unit filename="../Engine/Win32.cpp" />
+		<Unit filename="../Engine/Win32.h" />
+		<Unit filename="../Engine/information.h" />
+		<Unit filename="../Engine/picopng.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
